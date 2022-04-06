@@ -1,0 +1,39 @@
+em vs rem
+
+Root element in most cases has a default font-size of 16px which is equal to 1em.
+html {
+    font-size: 16px;
+}
+     ==
+html {
+
+}
+
+em - w.r.t font-size this unit is always multiplied by the root element value
+h1 {
+    font-size: 2em; //will be equal to 2*16px = 32px
+}
+
+but w.r.t padding or margin, this values has a compounding effect, it mutliplies the em values of all its descendants
+p {
+    font-size: 2em; //equal to 2*16px
+}
+
+h1 {
+    font-size: 2em; //if h1 is inside p, this will be 2*2*16px;
+}
+
+
+rem - doesnt compound. always multiplied by the root element value
+p {
+    font-size: 2em; //equal to 2*16px
+}
+
+h1 {
+    font-size: 2rem; //if h1 is inside p, still this will be 2*16px;
+}
+
+
+ems and rems are very useful
+1. just one change in the root element will revamp our website. highly useful for display on multiple screen sizes.
+2. scalable solution
