@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-body {
+    height: 240px;
+    width: 100px;
+    border: 2px light rgb(236, 212, 212);
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px 4px rgb(207, 199, 199);
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+#dd-element {
+    line-height: 16px;
+    height: 24px;
+    box-sizing: border-box;
+    padding: 4px 2px;
+    background-color: rgb(235, 235, 224);
+    transition: all 0.2s ease-out;
+}
+
+#dd-element:hover {
+    background-color: lime;
+    transition: all 0.2s ease-in;
+}
