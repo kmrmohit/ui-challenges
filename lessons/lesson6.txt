@@ -1,0 +1,13 @@
+Image tag
+
+Links use the <img> tag
+
+img element should be provided atleast two attributes
+src - location of Image
+alt - text for screen reader if applicable
+
+img element is self closing. With HTML5, we don't need to do like <img/>, we can just do <img> (both are correct)
+
+png image formats generally used :
+1. when transparency is involved
+2. better image quality

@@ -1,0 +1,1 @@
+flexbox by default tries to minimise the space it needs to fit itself (by first expanding horizontally and then vertically)

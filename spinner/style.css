@@ -1,0 +1,138 @@
+body {
+  font-family: system-ui;
+  background: #f06d06;
+  color: white;
+  text-align: center;
+}
+
+.spinner {
+  position: absolute;
+  width: 5px;
+  height: 40px;
+  background-color: red;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+  width: 1px;
+  margin: 0 auto;
+}
+
+.zero {
+  animation: spin 0.6s ease-in 0s infinite;
+}
+
+.one {
+  top: 10px;
+  left: 15px;
+  transform: rotate(60deg);
+  animation: spin 0.6s ease-in 0s infinite;
+}
+
+.two {
+  top: 30px;
+  left: 15px;
+  transform: rotate(120deg);
+  animation: spin 0.12s ease-in 0.6s infinite;
+}
+
+.three {
+  top: 40px;
+  transform: rotate(180deg);
+  animation: spin 0.18s ease-in 0.12s infinite;
+}
+
+.four {
+  top: 28px;
+  left: -15px;
+  transform: rotate(240deg);
+  animation: spin 0.24s ease-in 0.18s infinite;
+}
+
+.five {
+  top: 10px;
+  left: -15px;
+  transform: rotate(300deg);
+  animation: spin 0.30s ease-in 0.24s infinite;
+}
+
+@keyframes spin {
+  from {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  75% {
+    opacity: 0.9;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+.circle {
+    /* width: 48px;
+    height:48px;
+    border-top: 1.1em solid skyblue;
+    border-right: 1.1em solid skyblue;
+    border-bottom: 1.1em solid skyblue;
+    border-left: 1.1em solid #ffffff;
+    border-radius: 48px; */
+    position: absolute;
+    top: 428px;
+    /* animation: load8 1s linear infinite; */
+}
+
+
+/* .loader,
+.loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+.loader {
+  margin: 60px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em; 
+  border-top: 1.1em solid skyblue;
+  border-right: 1.1em solid skyblue;
+  border-bottom: 1.1em solid skyblue;
+  border-left: 1.1em solid #ffffff;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+} */
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+

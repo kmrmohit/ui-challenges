@@ -1,0 +1,16 @@
+vh,vw,vmax,vmin
+
+vh = viewport height
+vw = viewport width
+
+vmax = maximum of vh and vw
+vmin = minimum of vh and vw
+
+e.g.
+p {
+    font-size: 2vmin; //would adjust the font-size for varying screen sizes without additional media queries
+}
+
+super useful units
+1. can help in automatically adjusting layouts, according to device sizes
+2. extensive testing would be required to ensure everything is working fine

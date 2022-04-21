@@ -1,0 +1,18 @@
+Lists
+
+<li> - list item. it is a block element
+
+two types:
+<ul> - unordered Lists, appears as dotted list
+<ol> - ordered lists, appears as numbered list
+
+list items have to go inside either ul or ol tags
+
+<ol>
+    <li></li>
+    <li></li>
+</ol>
+<ul>
+    <li></li>
+    <li></li>
+</ul>

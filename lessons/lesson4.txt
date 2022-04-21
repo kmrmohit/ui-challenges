@@ -1,0 +1,15 @@
+Inline vs block
+
+Elemenents default to either:
+Inline or block
+
+Inline elements are mainly used for selecting pieces of text inside a block element and also make sure everything stays on the same line
+        while
+Block elements stack one below other
+
+Common inline elements -
+em, strong, link
+
+strong's default styling is bold but don't use it for making text bold but to add importance to text
+
+em's default styling is itallic but don't use it for making text itallic but to add emphasis to text

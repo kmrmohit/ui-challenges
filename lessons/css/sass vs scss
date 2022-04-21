@@ -1,0 +1,13 @@
+Q.What is the difference between SCSS and SASS ?
+
+Ans: SASS (Syntactically Awesome Style Sheets) is a pre-processor scripting language that will be compiled or interpreted into CSS. SassScript is itself a scripting language 
+whereas SCSS is the main syntax for the SASS which builds on top of the existing CSS syntax. It makes use of semicolons and brackets like CSS (Cascaded Style Sheets).
+SASS and SCSS can import each other. Sass actually makes CSS more powerful with math and variable support. 
+Let’s list down the main difference between SASS and SCSS. 
+ 
+
+SASS is used when we need an original syntax, code syntax is not required for SCSS.
+SASS follows strict indentation, SCSS has no strict indentation.
+SASS has a loose syntax with white space and no semicolons, the SCSS resembles more to CSS style and use of semicolons and braces are mandatory.
+SASS file extension is .sass and SCSS file extension is .scss.
+SASS has more developer community and support than SCSS.

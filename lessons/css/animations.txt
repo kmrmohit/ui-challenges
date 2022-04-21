@@ -1,0 +1,16 @@
+CSS animations make it possible to animate transitions from one CSS style configuration to another. 
+
+
+Animations consist of two components, 
+1. a style describing the CSS animation
+2. a set of keyframes that indicate the start and end states of the animation's style, as well as possible intermediate waypoints.
+
+
+
+There are three key advantages to CSS animations over traditional script-driven animation techniques:
+
+1. They're easy to use for simple animations; you can create them without even having to know JavaScript.
+2. The animations run well, even under moderate system load. Simple animations can often perform poorly in JavaScript. 
+    The rendering engine can use frame-skipping and other techniques to keep the performance as smooth as possible.
+3. Letting the browser control the animation sequence lets the browser optimize performance and efficiency by, for example, 
+    reducing the update frequency of animations running in tabs that aren't currently visible.

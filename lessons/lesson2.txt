@@ -1,0 +1,8 @@
+strong and emphasis tags
+
+1. both are inline elements. so they should be put inside a block element
+2. both are used to show the importance of text
+
+strong(<strong>)  - makes the text bold
+emphasis(<em>) - makes the text itallic
+

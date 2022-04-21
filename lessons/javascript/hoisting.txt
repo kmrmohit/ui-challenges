@@ -1,0 +1,10 @@
+Hoisting means putting a var/function/class at 
+the top of the function scope, so that it can be accessed without 
+throwing any errors.
+
+var is initialised with undefined while
+let and const are not initialised.
+
+so referencing let and const variables before initialization will return a reference error.
+This is called temporal dead zone. This is the code block b/w variable
+declaration and initialization.

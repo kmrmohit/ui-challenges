@@ -1,0 +1,6 @@
+attributes and links
+
+attributes are interpreted by the browser as specialitites of the particcular element
+attributes are always added to the opening tag of an element
+
+links are anchor tags which depict some location within or out of our page

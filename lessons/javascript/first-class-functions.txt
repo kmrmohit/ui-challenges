@@ -1,0 +1,25 @@
+A programming language is said to have first class functions when
+functinos in that language are treated like any other varible.
+
+here funtions can be passed as arguments to other functions, can be 
+returned by other functions and can be assigned as a value to a variable.
+
+Eg.
+
+Assign function to variable
+const foo = function(){}
+
+Pass a function as arguments
+function a(){}
+function b(func1){
+    func1()
+}
+b(a)
+
+
+Return a function
+function a() {
+    return function(){
+        return 1
+    }
+}

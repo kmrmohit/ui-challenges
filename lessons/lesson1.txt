@@ -9,12 +9,12 @@ html {
 
 }
 
-em - w.r.t font-size this unit is always multiplied by the root element value
+em - w.r.t font-size this unit is always multiplied by that element's font-size
 h1 {
     font-size: 2em; //will be equal to 2*16px = 32px
 }
 
-but w.r.t padding or margin, this values has a compounding effect, it mutliplies the em values of all its descendants
+but w.r.t padding or margin, this values has a compounding effect, it mutliplies the em values of all its ancestor parents font-size
 p {
     font-size: 2em; //equal to 2*16px
 }
